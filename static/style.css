@@ -1,6 +1,6 @@
 body {
   font-family: Calibri;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #menu {
@@ -9,7 +9,7 @@ body {
   margin-right: 20px;
   text-align: right;
   width: 150px;
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+  font-family: "Myriad Pro", "Calibri Neue", Calibri;
 }
 
 #menu .title {
@@ -47,7 +47,7 @@ body {
 }
 
 #content h1, #content h2, #content h3 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+  font-family: "Myriad Pro", "Calibri Neue", Calibri;
   margin: 0;
 }
 
