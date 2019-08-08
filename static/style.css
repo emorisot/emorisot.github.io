@@ -1,18 +1,46 @@
 body {
   font-family: Calibri;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0;
+}
+
+#content {
+  font-family: Calibri;
+  float:left;
+  margin-top: -20px;
+  margin-left: 20px;
+  text-align: left;
+  width: 300px;
+}
+
+/*#content h1 {
+  font-family: Calibri;
+  float:right;
+  margin-top: 150px;
+  margin-right: 20px;
+  text-align: right;
+  width: 300px;
+}*/
+
+#menu_2 {
+ float:left;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: right;
+  width: 300px;
 }
 
 #menu {
-  float: right;
-  margin-top: 30px;
+ float:right;
+  margin-top: 20px;
   margin-right: 20px;
   text-align: right;
-  width: 150px;
-  font-family: "Myriad Pro", "Calibri Neue", Calibri;
-}
-
-#menu .title {
+  width: 300px;
+  /*position: fixed;*/
 }
 
 #menu ul {
@@ -24,12 +52,58 @@ body {
 #menu li {
 }
 
+#left {
+  float: left;
+}
+
 #menu li a {
   display: inline-block;
   color: #0864c7;
 }
+ 
+ #menu_2 .title {
+  font-family: Calibri;
+  font-size: 45px
+  }
 
-#left {
+
+/*@media screen and (min-width:319px) and (max-width: 640px) {
+  #menu {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+  width: 150px;
+  font-size: 30px;
+  font-family: "Myriad Pro", "Calibri Neue", Calibri;
+  }
+}
+
+@media screen and (min-width:640px) {
+  #menu {
+  float: right;
+  margin-top: 200px;
+  margin-right: 10px;
+  text-align: right;
+  width: 300px;
+  font-size: 30px;
+  font-family: "Myriad Pro", "Calibri Neue", Calibri;
+  }
+}*/
+
+
+/*#menu {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+  width: 150px;
+  font-family: "Myriad Pro", "Calibri Neue", Calibri;
+}*/
+
+
+
+/*#left {
   height: 1px;
   float: left;
   display: block;
@@ -39,8 +113,8 @@ body {
   margin: 0;
   padding: 0;
 }
-
-#content {
+*/
+/*#content {
   margin-top: 15px;
   float: left;
   width: 500px;
@@ -89,4 +163,4 @@ body {
 
 .post + .post {
   margin-top: 50px;
-}
+}*/
