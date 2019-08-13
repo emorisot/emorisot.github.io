@@ -63,19 +63,18 @@ body {
   font-family: Calibri;
   float:left;
   font-size: 15px;
-  margin-top: -20px;
+  margin-top: -140px;
   margin-left: 20px;
   text-align: left;
-  width: 260px;
+  width: 200px;
 }
 
 img {
     max-width: 85%;
     height: auto;
-    width: auto; /* ie8 */
+    width: auto;   
     text-align: center;
-     margin-top: -400px;
-  margin-left: -50px;
+     margin-top: 20px;
 }
 
   #menu {
@@ -92,12 +91,22 @@ img {
 @media screen and (min-width:640px) {
   #menu {
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10px;
   text-align: right;
   width: 300px;
   font-size: 30px;
   font-family: "Myriad Pro", "Calibri Neue", Calibri;
+  }
+
+  #content {
+  font-family: Calibri;
+  float:left;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  width: 900px;
   }
 }
 
